@@ -12,8 +12,6 @@ namespace Programa_03_1_Indexer
 
         public int[] Array = new int[3];
 
-        
-
 
         public void Method()
         {
