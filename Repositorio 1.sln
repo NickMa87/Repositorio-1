@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci 1", "Fibonacci 1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{F15B5FC0-FF6D-4DFD-BCB8-DC19722DB949}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista Ligada", "Lista Ligada\Lista Ligada.csproj", "{0FC7FFFC-A67A-4C6F-A40E-F4C9F3CF4A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked List", "Lista Ligada\Linked List.csproj", "{0FC7FFFC-A67A-4C6F-A40E-F4C9F3CF4A96}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank Account + Classes", "Bank Account + Classes\Bank Account + Classes.csproj", "{040716CB-A972-40B8-A523-28CC0216ACE5}"
 EndProject

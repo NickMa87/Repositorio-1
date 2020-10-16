@@ -32,7 +32,7 @@ namespace Indexer_03
         {
             Console.WriteLine("=========================================\n");
             
-            return "Index:" + Index.ToString() + "\n" + "Col 1:" + Col1.ToString() + "\n"
+            return "Index:" + Index.ToString() +   "\n" + "Col 1:" + Col1.ToString() + "\n"
                     + "Col 2:" + Col2.ToString() + "\n"
                     + "Col 3:" + Col3.ToString() + "\n";
             

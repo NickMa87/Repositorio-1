@@ -6,32 +6,32 @@ using System.Xml;
 
 namespace Indexer_03
 {
-    class CData
+    class CData 
     {
-
-        int N = 0;
-
-        CNode[] NList = new CNode[9] { 
-                            new CNode(), new CNode(), new CNode(), 
-                            new CNode(), new CNode(), new CNode(),
-                            new CNode(), new CNode(), new CNode()
-                         };
-
-
-
-
+        CNode[] Arr;
+  
+        public CData()
+        {
+          Arr = new CNode[9]    {
+                                    new CNode(), new CNode(), new CNode(),
+                                    new CNode(), new CNode(), new CNode(),
+                                    new CNode(), new CNode(), new CNode()
+                                };
+        }
+               
         public CNode this[int Index]
         {
             get 
             {
-               return NList[Index];
+               return Arr[Index];
             }
         
         }
 
-       
+        public int Count { get; } = 9;
 
 
+     
 
     }
 }

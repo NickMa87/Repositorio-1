@@ -11,7 +11,9 @@ namespace Indexer_03
 
             CData D = new CData();
 
-            for (N = 0; N < 9; N++)
+            
+
+            for (N = 0; N < D.Count; N++)
             {
                 Console.WriteLine($"{D[N]}");
             }
