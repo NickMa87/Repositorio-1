@@ -54,7 +54,8 @@ namespace LINQ
                 Console.Clear();
                 Console.Write("I print a single value from Complejo Object \n\n\n");
 
-                var oItem = (from Alias in List
+                // Puede ser var
+                Complejo oItem = (from Alias in List
                              where Alias.Numero == 22
                              select Alias).FirstOrDefault();
 
