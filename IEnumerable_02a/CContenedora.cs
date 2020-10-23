@@ -16,6 +16,8 @@ namespace IEnumerable_02a
             Valores[N] = N * N;
         }
 
+        
+
         IEnumerator IEnumerable.GetEnumerator()
         {
 

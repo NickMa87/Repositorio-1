@@ -18,7 +18,7 @@ namespace IEnumerable_02a
 
         public bool MoveNext()
         {
-            Posicion++;
+            Posicion+=2;
             if (Posicion < Arreglo.Length)
                 return true;
             else

@@ -10,7 +10,7 @@ namespace Indexer_02
         String[] DayOfTheWeek = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
 
 
-
+      
         public String this[int X]
         {
             get {

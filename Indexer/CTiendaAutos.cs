@@ -22,6 +22,11 @@ namespace Programa_03_1_Indexer
             Disponibles[3] = new CAuto("Spark", 160300.00);
         }
 
+
+      
+
+
+
         public CAuto this[int Indice]
         {
             get { 
