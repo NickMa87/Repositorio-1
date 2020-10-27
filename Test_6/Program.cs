@@ -8,6 +8,9 @@ namespace Test_6
         {
             Class1 C = new Class1();
 
+            Console.WriteLine($"{C.C1.A.Length.ToString()}");
+
+            
             int X = C.A.Length;
 
             C.A[0] = 20;

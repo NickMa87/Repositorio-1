@@ -21,6 +21,10 @@ namespace Test_6
          
          */
 
+
+        public Class1 C1 = new Class1();
+
+
         public int[] A
         {
             get;set;
